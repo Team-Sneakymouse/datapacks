@@ -3,9 +3,14 @@ Vanilla datapacks for our Minecraft servers
 
 ## dvz
 Datapack to support DvZ gameplay and roleplay mechanics
-- Removes all advancements
-- Replaces all block and mob loot tables with emtpy placeholders
-	- except Scaffolding
+Intended to be used with a **disabled** vanilla resource pack
+- Re-enables loot tables for:
+	- Scaffolding
+- Re-enabled crafting recipes for:
+	- Book cloning
+	- Banner duplication
+	- Shield customization
+	- Firework stars and rockets
 
 ## plots
 Custom world generator for a plot world
