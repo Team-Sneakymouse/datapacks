@@ -5,6 +5,7 @@
     "minecraft:lava",
     "minecraft:hot_floor",
     "minecraft:unattributed_fireball",
-    "minecraft:fireball"
+    "minecraft:fireball",
+	"dvz:elemental_fire"
   ]
 }

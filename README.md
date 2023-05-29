@@ -11,6 +11,13 @@ Intended to be used with a **disabled** vanilla resource pack
 	- Banner duplication
 	- Shield customization
 	- Firework stars and rockets
+- Adds custom damage types:
+	- `dvz:physical_slash`, `dvz:physical_blunt`, `dvz:physical:pierce`
+	- `dvz:elemental_light`, `dvz:elemental:earth`, `dvz:elemental_ice`, `dvz:elemental_dark`, `dvz:elemental_arcane`, `dvz:elemental_fire`
+- Adds tags:
+	- damage types:
+		- `#dvz:is_physical` (also includes the damage type `minecraft:player_attack`)
+		- `#dvz:is_elemental`
 
 ## plots
 Custom world generator for a plot world

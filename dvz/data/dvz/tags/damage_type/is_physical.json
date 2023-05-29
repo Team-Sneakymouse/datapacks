@@ -1,0 +1,8 @@
+{
+  "values": [
+	"minecraft:player_attack",
+    "dvz:slash",
+    "dvz:blunt",
+    "dvz:pierce",
+  ]
+}
