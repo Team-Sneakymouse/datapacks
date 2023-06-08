@@ -13,7 +13,7 @@ Intended to be used with a **disabled** vanilla resource pack
 	- Firework stars and rockets
 - Adds custom damage types:
 	- `dvz:physical_slash`, `dvz:physical_blunt`, `dvz:physical:pierce`
-	- `dvz:elemental_light`, `dvz:elemental:earth`, `dvz:elemental_ice`, `dvz:elemental_dark`, `dvz:elemental_arcane`, `dvz:elemental_fire`
+	- `dvz:elemental_light`, `dvz:elemental_earth`, `dvz:elemental_ice`, `dvz:elemental_dark`, `dvz:elemental_arcane`, `dvz:elemental_fire`
 - Adds tags:
 	- damage types:
 		- `#dvz:is_physical` (also includes the damage type `minecraft:player_attack`)
