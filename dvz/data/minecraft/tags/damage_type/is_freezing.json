@@ -1,6 +1,5 @@
 {
   "values": [
-    "minecraft:freeze",
-	"dvz:elemental_ice"
+    "minecraft:freeze"
   ]
 }

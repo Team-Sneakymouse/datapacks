@@ -11,6 +11,7 @@ Intended to be used with a **disabled** vanilla resource pack
 	- Banner duplication
 	- Shield customization
 	- Firework stars and rockets
+	- Armor trims
 - Adds custom damage types:
 	- `dvz:physical_slash`, `dvz:physical_blunt`, `dvz:physical:pierce`
 	- `dvz:elemental_light`, `dvz:elemental_earth`, `dvz:elemental_ice`, `dvz:elemental_dark`, `dvz:elemental_arcane`, `dvz:elemental_fire`
