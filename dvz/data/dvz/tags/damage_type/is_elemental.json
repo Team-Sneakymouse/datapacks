@@ -1,10 +1,10 @@
 {
   "values": [
-    "dvz:fire",
-    "dvz:ice",
-    "dvz:arcane",
-    "dvz:earth",
-    "dvz:light",
-    "dvz:dark",
+    "dvz:elemental_fire",
+    "dvz:elemental_ice",
+    "dvz:elemental_arcane",
+    "dvz:elemental_earth",
+    "dvz:elemental_light",
+    "dvz:elemental_dark"
   ]
 }
