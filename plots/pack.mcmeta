@@ -1,6 +1,6 @@
 {
-  "pack": {
-    "pack_format": 18,
-    "description": "Plot world generator"
-  }
+	"pack": {
+		"pack_format": 41,
+		"description": "Plot world generator"
+	}
 }
