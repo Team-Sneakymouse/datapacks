@@ -3,6 +3,11 @@ import json
 import shutil
 import re
 
+# before running:
+# 1. delete "advancements", "loot_tables", and "recipes" directories in "data/minecraft"
+# 2. paste the "advancements", "loot_tables", and "recipes" directories from the vanilla jar into "data/minecraft"
+# 3. run this script
+
 def main():
 	# advancements
 	categories = os.listdir("data/minecraft/advancements")
@@ -16,16 +21,16 @@ def main():
 					override_advancement(f"data/minecraft/advancements/{category}/{category2}/{advancement}")
 
 	# loot_tables
+	def override_loot_tables_recursivel(path):
+		if os.path.isfile(path):
+			override_loot_table(path)
+		else:
+			for sub_loot_table in os.listdir(path):
+				override_loot_tables_recursivel(f"{path}/{sub_loot_table}")
 	categories = os.listdir("data/minecraft/loot_tables")
 	for category in categories:
 		print(f"Overriding loot tables for {category}")
-		loot_tables = os.listdir(f"data/minecraft/loot_tables/{category}")
-		for loot_table in loot_tables:
-			if os.path.isfile(f"data/minecraft/loot_tables/{category}/{loot_table}"):
-				override_loot_table(f"data/minecraft/loot_tables/{category}/{loot_table}")
-			else:
-				for sub_loot_table in os.listdir(f"data/minecraft/loot_tables/{category}/{loot_table}"):
-					override_loot_table(f"data/minecraft/loot_tables/{category}/{loot_table}/{sub_loot_table}")
+		override_loot_tables_recursivel(f"data/minecraft/loot_tables/{category}")
 
 	# recipes
 	print("Overriding recipes")
@@ -74,7 +79,9 @@ def override_recipe(path):
 		data = {
 			"type": "minecraft:stonecutting",
 			"ingredient": { "item": "minecraft:structure_void" },
-			"result": "minecraft:structure_void",
+			"result": {
+				"id": "minecraft:structure_void",
+			},
 			"count": 1
 		}
 		file.write(json.dumps(data, indent=4))
