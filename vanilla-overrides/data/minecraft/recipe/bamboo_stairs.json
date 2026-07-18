@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "minecraft:structure_void",
+    "result": {
+        "id": "minecraft:structure_void",
+        "count": 1
+    }
+}

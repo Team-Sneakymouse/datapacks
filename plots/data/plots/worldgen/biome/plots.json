@@ -1,16 +1,18 @@
 {
+  "attributes": {
+    "minecraft:visual/fog_color": "#ff6343",
+    "minecraft:visual/sky_color": "#b10a00",
+    "minecraft:visual/water_fog_color": "#430500"
+  },
   "temperature": 0.69,
   "downfall": 0.69,
   "has_precipitation": true,
   "effects": {
-    "sky_color": 11602432,
-    "fog_color": 16737091,
-    "water_color": 14375424,
-    "water_fog_color": 4392192
+    "water_color": "#db5a00"
   },
   "spawners": {},
   "spawn_costs": {},
-  "carvers": {},
+  "carvers": [],
   "features": [
     [
       "minecraft:patch_tall_grass_2",
